@@ -1,0 +1,137 @@
+@font-face {
+    font-family: timmana;
+    src: url("Timmana/Timmana-Regular.ttf");
+}
+*{
+    box-sizing: border-box;
+    margin: 0px; !important
+    padding: 0px; !important
+}
+body{
+background-color: #efefef99;
+}
+nav{
+  display: flex;
+   flex-wrap: wrap;
+   border: 2px solid rgb(255, 255, 255);
+  align-items: center;
+
+    min-height: 80px;
+   min-width: 100%;
+    background-color: rgb(255, 255, 255);
+flex-direction: row;
+justify-content: space-between;
+border-bottom: 5px solid #fae4ed2e;
+transform: .5s;
+border-radius: 5px;
+
+}
+.item{
+   list-style: none;
+font-size: larger;
+font-weight: 900; 
+margin: 5px;
+cursor: pointer;
+}
+
+.food{
+    width: 30px;
+    height: 30px;
+  
+}
+.lastone{
+  
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+}
+input {
+    border-radius: 5px;
+    color: rgb(246, 246, 246);
+   background: white;
+    width: 70px;
+    height: 35px;
+    color: #D70F64;
+border-color: #D70F64;
+font-size: 15px;
+transition: .2s;
+}
+input:hover{
+    height: 30px;
+    color: #fff;
+     background-color: #D70F64; 
+}
+select{
+    border: #D70F64;
+}
+select:hover{
+    height: 30px;
+    color: #fff;
+     background-color: #D70F64; 
+     cursor: pointer;
+     border-radius: 50px;
+     border: #D70F64;
+}
+#one:hover , #two:hover , #six:hover{
+border: 2px solid #fae4ed;
+background-color: #fae4ed;
+border-radius:5px ;
+padding-left: 5px;
+
+}
+#one , #two #six{
+    transition: .3s;
+}
+.heading{
+    border-top: 5px solid rgba(245, 245, 245, 0.591);
+    margin: 20px;
+    font-family: timmana;
+}
+.child>img{
+   width: 415px;
+   
+    height: 415px;
+   
+  border: #fff;
+  border-radius: 20px;
+  margin-left: 10px;
+  border-bottom-left-radius:0px;
+ border-bottom-right-radius: 0px;
+
+}
+h2>img{
+    width: 415px;
+    height: 415px;
+  border: #fff;
+  border-radius: 20px;
+ margin: 10px 9px;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.child>p{
+    font-family: timmana;
+font-size: x-large;
+font-weight: 700;
+padding-left: 20px;
+margin-left: 10px;
+margin-top: -10px;
+height: 70px;
+padding-top: 10px;
+border: #fff;
+background-color: #ffffff;
+border-bottom-left-radius: 50px;
+border-bottom-right-radius: 50px;
+}
+.child{
+cursor: pointer;
+margin-top: 5px;
+width: 425px;
+height: 490px;
+margin: 50px;
+}
